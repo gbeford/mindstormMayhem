@@ -1,0 +1,15 @@
+
+<div ng-controller="teamListCtrl">
+    
+    {{test}}
+     <label type="Team List" />
+  <ul class="">
+    <li class="" ng-repeat="team in teams">
+      {{team._id }} to {{team.teamNumber}} who's Team name is  {{team.teamName}}.
+    </li>
+    <li class="" ng-if="team.length == 0">
+      <strong>No results found...</strong>
+    </li>
+  </ul>
+    
+</div>

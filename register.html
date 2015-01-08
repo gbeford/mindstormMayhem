@@ -1,0 +1,39 @@
+
+
+
+
+ <div ng-controller="registerFormCtrl">
+      <form class="form-horizontal" role="form" name="form" ng-submit="submitForm()" novalidate>
+      <label class="" for="fName">First Name:</label>
+      <input ng-model="register.fname" id="fName" name="fName" type="text" placeholder="First Name" class="form-control" maxlength="75" >
+     <br/>
+       <label class="" for="lName">Last Name:</label>
+      <input ng-model="register.lname" id="lName" name="lName" type="text" placeholder="Last Name" class="form-control" maxlength="75" >
+     <br/>
+         <label class="" for="address1">Address 1:</label>
+      <input ng-model="register.address1" id="address1" name="address1" type="text" placeholder="Address 1" class="form-control" maxlength="75" >
+     <br/>
+         <label class="" for="address2">Address 2:</label>
+      <input ng-model="register.address2" id="address2" name="address2" type="text" placeholder="Address 2" class="form-control" maxlength="75" >
+     <br/>   
+          <label class="" for="zipcode">Zipcode:</label>
+      <input ng-model="register.zip" ng-blur="processAddress()" id="zipcode" name="zipcode" type="text" placeholder="Zipcode" class="form-control" maxlength="75" value="65202">
+                 
+    &nbsp;
+            <label class="" for="city_state">city, state:</label>
+                <select ng-model="register.selectCityOption"  ng-options="city for city in register.cities"></select> 
+     <br/>
+          <label class="" for="role" ng-repeat="role in roles">
+          <input type='radio' value ="{{role.roleId}}" name="role" ng-model="register.role">{{role.roleName}}
+          </label>
+          <br/>
+          
+          <div ng-show="register.role == '3'">  
+            <label class="" for="volunteerType">Volunteer Type
+                <select ng-model="selectVTOption"  ng-options="type.typeName for type in volunteerTypes" ></select> 
+                </label>
+          <br/>
+      </div>
+      <button ng-click="">Submit</button>
+      <button ng-click="cancel()">Cancel</button>
+      </form>

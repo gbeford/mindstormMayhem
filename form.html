@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app="robotApp">
+
+<head>
+    <title></title>
+  
+
+    <!-- for css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="css/overrides.css" type="text/css" />
+    
+    <!-- for JavaScript  -->
+    <script src="js/lib/angular/angular.min.js"></script>
+    <script src="js/lib/angular/angular-touch.min.js"></script>
+    <script src="js/lib/angular/ui-bootstrap-tpls-0.10.0.min.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="js/controllers/controllers.js"></script>
+    <script src="js/services/service.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+</head>
+
+<body id="top">
+
+    <div class="wrapper col3" ng-controller="registerController">
+        <div id="container">
+            <h1>Register</h1>
+            <div class="row">
+                <form class="form-horizontal" role="form" name="form" ng-submit="submitForm()" novalidate>
+                    <div class="form-group" ng-class="{ 'has-error' : form.fName.$invalid && !form.fName.$pristine,  'has-success': !form.fName.$invalid}">
+                        <label class="col-sm-2 col-sm-offset-1 control-label" for="fName">First Name:</label>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
+                                <input ng-model="register.fName" id="fName" name="fName" type="text" placeholder="First Name" class="form-control" maxlength="75" autofocus >
+                            </div>
+                            <small ng-show="form.fName.$invalid && !form.fName.$pristine" class="help-block">First name is required. </small>
+                        </div>
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' : form.lName.$invalid && !form.lName.$pristine}">
+                        <label class="col-sm-2 col-sm-offset-1 control-label" for="lName">Last Name:</label>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input ng-model="register.lName" id="lName" name="lName" type="text" placeholder="Last Name" class="form-control" maxlength="75" >
+                            </div>
+                            <small ng-show="form.lName.$invalid && !form.lName.$pristine" class="help-block">Last name is required. </small>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error' : form.address1.$invalid && !form.address1.$pristine}">
+                        <label class="col-sm-2 col-sm-offset-1 control-label" for="address1">Address 1:</label>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input ng-model="register.address1" ng-disabled="" name="address1" id="address1" type="text" class="form-control" placeholder="ex: 1 Main Street" maxlength="50" >
+                            </div>
+                            <!--<small class="error" ng-show="demographics_form.address1.$error.required">Address is required. </small>-->
+                            <small ng-show="form.address1.$invalid && !form.address1.$pristine" class="help-block">Address is required. </small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 col-sm-offset-1 control-label" for="address2">Address 2:</label>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon input-group-addon_width"></span>
+                                <input ng-model="register.address2" ng-disabled="!editAllowed" id="address2" type="text" class="form-control" placeholder="ex: 2nd Floor" maxlength="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error' : form.city.$invalid && !form.city.$pristine}">
+                        <label class="col-sm-2 col-sm-offset-1 control-label" for="city">City:
+                        </label>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <input ng-model="register.city" name="city" id="city" type="text" class="form-control" placeholder="ex: Boston" maxlength="50" >
+                            </div>
+                            <!--<small class="error" ng-show="demographics_form.address1.$error.required">Address is required. </small>-->
+                            <small ng-show="form.city.$invalid && !form.city.$pristine" class="help-block">City is required. </small>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group" ng-class="{ 'has-error' : form.state.$invalid && !form.state.$pristine}">
+                        <label class="col-sm-2 col-sm-offset-1 control-label" for="state">State</label>
+                        <div class="col-sm-3">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                <div ng-class="{ 'has-success': !form.state.$invalid }">
+                                    <select ng-model="register.state" ng-disabled="" id="state" name="state" class="form-control" >
+                                        <option ng-repeat="state in states" value="{{state.state}}">{{state.state}} - {{state.description}}</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <small ng-show="form.state.$invalid && !form.state.$pristine" class="help-block">State is required.</small>
+                        </div>
+                    <!-- </div>
+                    <div class="form-group" ng-class="{ 'has-error' : form.zip.$invalid && !form.zip.$pristine, 'has-success': !form.zip.$invalid}"> -->
+                        <div ng-class="{ 'has-error' : form.zip.$invalid && !form.zip.$pristine, 'has-success': !form.zip.$invalid}">
+                            <label class="col-sm-1 control-label" for="zip">Zipcode:</label>
+                        <div class="col-sm-3">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
+                                <input ng-model="register.zip" id="zip" name="zip" type="text" placeholder="ex: 01606" class="form-control" maxlength="75" autofocus >
+                            </div>
+                            <small ng-show="form.zip.$invalid && !form.zip.$pristine" class="help-block">Zipcode is required. </small>
+                        </div>
+                    </div>
+ </div>
+
+                    <div class="col-sm-5 col-sm-offset-3">
+                        <button ng-disabled="form.$invalid" ng-click="processAddress()" class="btn btn-success form-button">Submit</button>
+                        <button ng-click="cancel()" class="btn btn-default">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

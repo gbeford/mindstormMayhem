@@ -1,0 +1,15 @@
+/*
+    Document   : css/overrides．css
+    Created on : 2014-09-12 07:30 PM
+    Author     : gbeford
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+
+/* this is to set the grey box in front of imputs to the same size */
+.input-group-addon_width {
+    padding-right: 25px;
+    height: 34px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html ng-app="carouselApp">
+
+<head profile="http://gmpg.org/xfn/11">
+    <title>PlusBusiness</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="imagetoolbar" content="no" />
+  
+    
+    <!-- for css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" />
+
+    <!-- for JavaScript  -->
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>-->
+    <script src="scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="js/lib/angular/angular.min.js"></script>
+    <script src="js/lib/angular/angular-touch.min.js"></script>
+    <script src="js/lib/angular/ui-bootstrap-tpls-0.10.0.min.js"></script>
+    <script src="js/views/app.js"></script>
+    <script src="js/controllers/controllers.js"></script>
+    <script src="js/services/service.js"></script>
+
+    <!-- for Fonts  -->
+    <link href="css/fonts/glyphicons-halflings-regular.eot" rel="stylesheet" type="text/css">
+    <link href="css/fonts/glyphicons-halflings-regular.svg" rel="stylesheet" type="text/css">
+    <link href="css/fonts/glyphicons-halflings-regular.ttf" rel="stylesheet" type="text/css">
+    <link href="css/fonts/glyphicons-halflings-regular.woff" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">   
+</head>
+
+<body id="top">
+    <!-- ####################################################################################################### -->
+    <div class="wrapper col1">
+        <div id="header">
+            <div id="logo">
+                <h1><a href="#">+Business</a></h1>
+                <p>Free CSS Website Template</p>
+            </div>
+            <div id="topnav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="style-demo.html">Style Demo</a>
+                    </li>
+                    <li><a href="full-width.html">Full Width</a>
+                    </li>
+                    <li><a href="#">DropDown</a>
+                        <ul>
+                            <li><a href="#">Link 1</a>
+                            </li>
+                            <li><a href="#">Link 2</a>
+                            </li>
+                            <li><a href="#">Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="last"><a href="#">A Long Link Text</a>
+                    </li>
+                </ul>
+            </div>
+            <br class="clear" />
+        </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="wrapper col2">
+  <div id="featured_slide ">
+    <div id="featured_content" >
+  
+    <div ng-controller="CarouselDemoCtrl ">
+  <div style="height: 305px ">
+    <carousel interval="myInterval ">
+      <slide ng-repeat="slide in slides " active="slide.active ">
+        <img ng-src="{{slide.image}} " style="margin:auto; ">
+        <div class="carousel-caption ">
+          <h4>Slide {{$index}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+  <div class="row ">
+    <div class="col-md-6 ">
+      <a class="btn btn-info " ng-click="addSlide() ">Add Slide</a>
+    </div>
+    <div class="col-md-6 ">
+      Interval, in milliseconds: <input type="number " class="form-control " ng-model="myInterval ">
+      <br />Enter a negative number to stop the interval.
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    </div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3 ">
+  <div id="container ">
+    <div class="homepage ">
+      <ul>
+        <li>
+          <h2><img src="images/demo/60x60.gif " alt=" " />Nullamlacus dui ipsum conseque loborttis</h2>
+          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+          <p class="readmore "><a href="# ">Continue Reading &raquo;</a></p>
+        </li>
+        <li>
+          <h2><img src="images/demo/60x60.gif " alt=" " />Nullamlacus dui ipsum conseque loborttis</h2>
+          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+          <p class="readmore "><a href="# ">Continue Reading &raquo;</a></p>
+        </li>
+        <li class="last ">
+          <h2><img src="images/demo/60x60.gif " alt=" " />Nullamlacus dui ipsum conseque loborttis</h2>
+          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
+          <p class="readmore "><a href="# ">Continue Reading &raquo;</a></p>
+        </li>
+      </ul>
+      <br class="clear " />
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4 ">
+  <div id="footer ">
+    <div class="box1 ">
+      <h2>A Little Company Information !</h2>
+      <img class="imgl " src="images/demo/imgl.gif " alt=" " />
+      <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. Anterdumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. Condimentumfelis et amet tellent quisquet a leo lacus nec augue</p>
+      <p>Portortornec condimenterdum eget consectetuer condis.</p>
+    </div>
+    <div class="box contactdetails ">
+      <h2>Our Contact Details !</h2>
+      <ul>
+        <li>Company Name</li>
+        <li>Street Name &amp; Number</li>
+        <li>Town</li>
+        <li>Postcode/Zip</li>
+        <li>Tel: xxxxx xxxxxxxxxx</li>
+        <li>Fax: xxxxx xxxxxxxxxx</li>
+        <li>Email: info@domain.com</li>
+        <li class="last ">LinkedIn: <a href="# ">Company Profile</a></li>
+      </ul>
+    </div>
+    <div class="box flickrbox ">
+      <h2>Latest Flickr Images !</h2>
+      <div class="wrap ">
+        <div class="fix "></div>
+        <div class="flickr_badge_image " id="flickr_badge_image1 "><a href="# "><img src="images/demo/80x80.gif " alt=" " /></a></div>
+        <div class="flickr_badge_image " id="flickr_badge_image2 "><a href="# "><img src="images/demo/80x80.gif " alt=" " /></a></div>
+        <div class="flickr_badge_image " id="flickr_badge_image3 "><a href="# "><img src="images/demo/80x80.gif " alt=" " /></a></div>
+        <div class="flickr_badge_image " id="flickr_badge_image4 "><a href="# "><img src="images/demo/80x80.gif " alt=" " /></a></div>
+        <div class="flickr_badge_image " id="flickr_badge_image5 "><a href="# "><img src="images/demo/80x80.gif " alt=" " /></a></div>
+        <div class="flickr_badge_image " id="flickr_badge_image6 "><a href="# "><img src="images/demo/80x80.gif " alt=" " /></a></div>
+        <div class="fix "></div>
+      </div>
+    </div>
+    <br class="clear " />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5 ">
+  <div id="copyright ">
+    <p class="fl_left ">Copyright &copy; 2011 - All Rights Reserved - <a href="# ">Domain Name</a></p>
+    <p class="fl_right ">Template by <a href="http://www.os-templates.com/ " title="Free Website Templates ">OS Templates</a></p>
+    <br class="clear " />
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<div ng-controller="eventRegisterCtrl">
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <small><i>Add alerts if form ok... success, else error.</i></small>
+            <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong>
+            </div>
+            <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs. (If form error!)</strong>
+            </div>
+        </div>
+        <form role="form" action="" method="post">
+            <div class="col-lg-6">
+                <div class="well well-sm"><strong><i class="glyphicon glyphicon-ok form-control-feedback"></i> Required Field</strong>
+                </div>
+                <div class="form-group">
+
+                    <label class="" for="fllNumber">Fll Number:</label>
+                    <div class="input-group">
+                        <input ng-model="register.fllNumber" id="fllNumber" name="fllNumber" type="text" placeholder="Fll Number" class="form-control" maxlength="75" required>
+
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="" for="teamName">Team Name:</label>
+                    <div class="input-group">
+                        <input ng-model="register.teamName" id="teamName" name="teamName" type="text" placeholder="Team Name" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="coachFname">Coach First Name</label>
+                    <div class="input-group">
+                        <input ng-model="register.coachFname" id="coachFname" name="coachFname" type="text" placeholder="Coach First Name" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="coachLname">Coach Last Name</label>
+                    <div class="input-group">
+                        <input ng-model="register.coachLname" id="coachLname" name="coachLname" type="text" placeholder="Coach Last Name" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="coachEmail">Coach Email</label>
+                    <div class="input-group">
+                        <input ng-model="register.coachEmail" id="coachEmail" name="coachEmail" type="text" placeholder="Coach Email" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="altCoachFname">Assistant Coach First Name</label>
+                    <div class="input-group">
+                        <input ng-model="register.altCoachFname" id="altCoachFname" name="altCoachFname" type="text" placeholder="Assistant Coach First Name" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="altCoachLname">Assistant Coach Last Name</label>
+                    <div class="input-group">
+                        <input ng-model="register.altCoachLname" id="altCoachLname" name="altCoachLname" type="text" placeholder="Assistant Coach Last Name" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="altCoachEmail">Assistant Coach Email</label>
+                    <div class="input-group">
+                        <input ng-model="register.altCoachEmail" id="altCoachEmail" name="altCoachEmail" type="text" placeholder="Assistant Coach Email" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="town">Town</label>
+                    <div class="input-group">
+                        <input ng-model="register.town" ng-blur="processState()" id="town" name="town" type="text" placeholder="Town" class="form-control" maxlength="75" required>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <div class="input-group">
+                        <input ng-model="register.state" id="state" name="state" type="text" placeholder="State" class="form-control" maxlength="75" required>
+
+                        <select ng-model="register.selectStateDDL" ng-options="state for state in register.states"></select>
+
+
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                    </div>
+                </div>
+                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+            </div>
+        </form>
+    </div>
+</div>

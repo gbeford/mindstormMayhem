@@ -1,0 +1,443 @@
+[
+  {
+    "_id": "549086ec282c7604b0765130",
+    "teamNumber": 3143,
+    "teamName": "COMTEST",
+    "isActive": false,
+    "number": 5,
+    "number2": 2,
+    "email": "3143.comtest@comtest.me"
+  },
+  {
+    "_id": "549086ec9a347b37ffb409e3",
+    "teamNumber": 2871,
+    "teamName": "SULTRAXIN",
+    "isActive": true,
+    "number": 2,
+    "number2": 1,
+    "email": "2871.sultraxin@sultraxin.net"
+  },
+  {
+    "_id": "549086ec93a169c280155d46",
+    "teamNumber": 880,
+    "teamName": "SCENTY",
+    "isActive": false,
+    "number": 3,
+    "number2": 4,
+    "email": "880.scenty@scenty.io"
+  },
+  {
+    "_id": "549086ec41aa72f5ac782bf3",
+    "teamNumber": 2095,
+    "teamName": "ECRAZE",
+    "isActive": true,
+    "number": 1,
+    "number2": 4,
+    "email": "2095.ecraze@ecraze.com"
+  },
+  {
+    "_id": "549086ec3d4f05fc5186297e",
+    "teamNumber": 681,
+    "teamName": "XURBAN",
+    "isActive": true,
+    "number": 4,
+    "number2": 1,
+    "email": "681.xurban@xurban.tv"
+  },
+  {
+    "_id": "549086ec7b92b94763965619",
+    "teamNumber": 1216,
+    "teamName": "UTARIAN",
+    "isActive": true,
+    "number": 2,
+    "number2": 1,
+    "email": "1216.utarian@utarian.ca"
+  },
+  {
+    "_id": "549086eca12466b5791985ef",
+    "teamNumber": 3776,
+    "teamName": "BIFLEX",
+    "isActive": true,
+    "number": 4,
+    "number2": 3,
+    "email": "3776.biflex@biflex.biz"
+  },
+  {
+    "_id": "549086ec0afda1b032436711",
+    "teamNumber": 951,
+    "teamName": "TUBALUM",
+    "isActive": true,
+    "number": 1,
+    "number2": 3,
+    "email": "951.tubalum@tubalum.co.uk"
+  },
+  {
+    "_id": "549086ecdcbc8f3cafd2c3e1",
+    "teamNumber": 3381,
+    "teamName": "GRAINSPOT",
+    "isActive": false,
+    "number": 1,
+    "number2": 1,
+    "email": "3381.grainspot@grainspot.biz"
+  },
+  {
+    "_id": "549086ecc1f078097c6157d0",
+    "teamNumber": 3116,
+    "teamName": "KINDALOO",
+    "isActive": false,
+    "number": 1,
+    "number2": 1,
+    "email": "3116.kindaloo@kindaloo.name"
+  },
+  {
+    "_id": "549086ec1386befc7b9317e2",
+    "teamNumber": 3087,
+    "teamName": "ZILIDIUM",
+    "isActive": false,
+    "number": 2,
+    "number2": 4,
+    "email": "3087.zilidium@zilidium.info"
+  },
+  {
+    "_id": "549086ecd23e199dcc820489",
+    "teamNumber": 1938,
+    "teamName": "ANIMALIA",
+    "isActive": false,
+    "number": 1,
+    "number2": 2,
+    "email": "1938.animalia@animalia.org"
+  },
+  {
+    "_id": "549086ecdfa1c277f4ad8669",
+    "teamNumber": 3937,
+    "teamName": "VETRON",
+    "isActive": true,
+    "number": 4,
+    "number2": 4,
+    "email": "3937.vetron@vetron.me"
+  },
+  {
+    "_id": "549086ec942f9eaa1bd69aa7",
+    "teamNumber": 2301,
+    "teamName": "RUGSTARS",
+    "isActive": true,
+    "number": 5,
+    "number2": 4,
+    "email": "2301.rugstars@rugstars.net"
+  },
+  {
+    "_id": "549086ecf6de5617729d3b4a",
+    "teamNumber": 2139,
+    "teamName": "TRI@TRIBALOG",
+    "isActive": true,
+    "number": 3,
+    "number2": 2,
+    "email": "2139.tri@tribalog@tri@tribalog.io"
+  },
+  {
+    "_id": "549086ecaf86e37acaf886f3",
+    "teamNumber": 3139,
+    "teamName": "COMTRACT",
+    "isActive": true,
+    "number": 1,
+    "number2": 2,
+    "email": "3139.comtract@comtract.com"
+  },
+  {
+    "_id": "549086ec056775a6ad7653e7",
+    "teamNumber": 3138,
+    "teamName": "FITCORE",
+    "isActive": false,
+    "number": 5,
+    "number2": 2,
+    "email": "3138.fitcore@fitcore.tv"
+  },
+  {
+    "_id": "549086ec5677742c9ecb190f",
+    "teamNumber": 112,
+    "teamName": "GINK",
+    "isActive": true,
+    "number": 4,
+    "number2": 4,
+    "email": "112.gink@gink.ca"
+  },
+  {
+    "_id": "549086ec971aebf85bfc9020",
+    "teamNumber": 117,
+    "teamName": "SNACKTION",
+    "isActive": false,
+    "number": 5,
+    "number2": 4,
+    "email": "117.snacktion@snacktion.biz"
+  },
+  {
+    "_id": "549086ec8e24a55c798e9947",
+    "teamNumber": 2905,
+    "teamName": "ORGANICA",
+    "isActive": true,
+    "number": 4,
+    "number2": 2,
+    "email": "2905.organica@organica.co.uk"
+  },
+  {
+    "_id": "549086ec681635f155dec633",
+    "teamNumber": 3468,
+    "teamName": "TECHADE",
+    "isActive": true,
+    "number": 1,
+    "number2": 1,
+    "email": "3468.techade@techade.biz"
+  },
+  {
+    "_id": "549086ec8be813ae89023c7a",
+    "teamNumber": 3128,
+    "teamName": "COMCUR",
+    "isActive": true,
+    "number": 4,
+    "number2": 1,
+    "email": "3128.comcur@comcur.name"
+  },
+  {
+    "_id": "549086ec14b60fdf2bb55b7f",
+    "teamNumber": 1103,
+    "teamName": "NORALEX",
+    "isActive": false,
+    "number": 5,
+    "number2": 1,
+    "email": "1103.noralex@noralex.info"
+  },
+  {
+    "_id": "549086ec8967f34411c54c1d",
+    "teamNumber": 3225,
+    "teamName": "INTRADISK",
+    "isActive": true,
+    "number": 4,
+    "number2": 3,
+    "email": "3225.intradisk@intradisk.org"
+  },
+  {
+    "_id": "549086ecd409031adc1dd56e",
+    "teamNumber": 1863,
+    "teamName": "ZENSURE",
+    "isActive": true,
+    "number": 1,
+    "number2": 1,
+    "email": "1863.zensure@zensure.me"
+  },
+  {
+    "_id": "549086ecdb4e229057e3cc62",
+    "teamNumber": 3977,
+    "teamName": "BUZZOPIA",
+    "isActive": false,
+    "number": 3,
+    "number2": 4,
+    "email": "3977.buzzopia@buzzopia.net"
+  },
+  {
+    "_id": "549086ecba1d07a63fe4c6d9",
+    "teamNumber": 3584,
+    "teamName": "MAGNAFONE",
+    "isActive": false,
+    "number": 3,
+    "number2": 1,
+    "email": "3584.magnafone@magnafone.io"
+  },
+  {
+    "_id": "549086ec53d831df3f047f6b",
+    "teamNumber": 1616,
+    "teamName": "SUPREMIA",
+    "isActive": false,
+    "number": 1,
+    "number2": 2,
+    "email": "1616.supremia@supremia.com"
+  },
+  {
+    "_id": "549086ecffe836e65fe0e3d9",
+    "teamNumber": 2777,
+    "teamName": "SONIQUE",
+    "isActive": true,
+    "number": 4,
+    "number2": 3,
+    "email": "2777.sonique@sonique.tv"
+  },
+  {
+    "_id": "549086ec10b24fe2df42b770",
+    "teamNumber": 3149,
+    "teamName": "GORGANIC",
+    "isActive": false,
+    "number": 3,
+    "number2": 1,
+    "email": "3149.gorganic@gorganic.ca"
+  },
+  {
+    "_id": "549086ec383455efee550250",
+    "teamNumber": 3076,
+    "teamName": "MONDICIL",
+    "isActive": false,
+    "number": 5,
+    "number2": 1,
+    "email": "3076.mondicil@mondicil.biz"
+  },
+  {
+    "_id": "549086ec285b2dbf28137561",
+    "teamNumber": 1694,
+    "teamName": "ENTOGROK",
+    "isActive": true,
+    "number": 3,
+    "number2": 4,
+    "email": "1694.entogrok@entogrok.co.uk"
+  },
+  {
+    "_id": "549086ecf4bc0b0e28515167",
+    "teamNumber": 3320,
+    "teamName": "ZYTREX",
+    "isActive": false,
+    "number": 5,
+    "number2": 4,
+    "email": "3320.zytrex@zytrex.biz"
+  },
+  {
+    "_id": "549086ec3f23d5160e41bf45",
+    "teamNumber": 1051,
+    "teamName": "ZEAM",
+    "isActive": false,
+    "number": 3,
+    "number2": 3,
+    "email": "1051.zeam@zeam.name"
+  },
+  {
+    "_id": "549086ece66841a805187cf9",
+    "teamNumber": 2655,
+    "teamName": "NIPAZ",
+    "isActive": true,
+    "number": 3,
+    "number2": 3,
+    "email": "2655.nipaz@nipaz.info"
+  },
+  {
+    "_id": "549086ec99668347e473de4e",
+    "teamNumber": 432,
+    "teamName": "ZOARERE",
+    "isActive": false,
+    "number": 5,
+    "number2": 3,
+    "email": "432.zoarere@zoarere.org"
+  },
+  {
+    "_id": "549086ec6866a7e502e18c06",
+    "teamNumber": 1935,
+    "teamName": "ZEROLOGY",
+    "isActive": true,
+    "number": 1,
+    "number2": 1,
+    "email": "1935.zerology@zerology.me"
+  },
+  {
+    "_id": "549086ec7e6db1fb5a0e881c",
+    "teamNumber": 1824,
+    "teamName": "CONJURICA",
+    "isActive": false,
+    "number": 4,
+    "number2": 2,
+    "email": "1824.conjurica@conjurica.net"
+  },
+  {
+    "_id": "549086ec9c32b948080766f5",
+    "teamNumber": 2096,
+    "teamName": "PIVITOL",
+    "isActive": false,
+    "number": 2,
+    "number2": 3,
+    "email": "2096.pivitol@pivitol.io"
+  },
+  {
+    "_id": "549086ec37e1155611deab26",
+    "teamNumber": 2212,
+    "teamName": "BYTREX",
+    "isActive": true,
+    "number": 5,
+    "number2": 1,
+    "email": "2212.bytrex@bytrex.com"
+  },
+  {
+    "_id": "549086ecf79f03844a098aef",
+    "teamNumber": 2730,
+    "teamName": "MAINELAND",
+    "isActive": false,
+    "number": 4,
+    "number2": 3,
+    "email": "2730.maineland@maineland.tv"
+  },
+  {
+    "_id": "549086ec98f629ac1068b621",
+    "teamNumber": 1211,
+    "teamName": "WAZZU",
+    "isActive": false,
+    "number": 5,
+    "number2": 2,
+    "email": "1211.wazzu@wazzu.ca"
+  },
+  {
+    "_id": "549086ece4c120a2b3320295",
+    "teamNumber": 317,
+    "teamName": "SOLGAN",
+    "isActive": true,
+    "number": 1,
+    "number2": 2,
+    "email": "317.solgan@solgan.biz"
+  },
+  {
+    "_id": "549086ec89dc9c47d7f74108",
+    "teamNumber": 3226,
+    "teamName": "TOYLETRY",
+    "isActive": true,
+    "number": 5,
+    "number2": 3,
+    "email": "3226.toyletry@toyletry.co.uk"
+  },
+  {
+    "_id": "549086ec22489ba4f10c3023",
+    "teamNumber": 296,
+    "teamName": "ZIALACTIC",
+    "isActive": true,
+    "number": 1,
+    "number2": 3,
+    "email": "296.zialactic@zialactic.biz"
+  },
+  {
+    "_id": "549086ec59fce9896503b853",
+    "teamNumber": 913,
+    "teamName": "IMAGINART",
+    "isActive": false,
+    "number": 5,
+    "number2": 1,
+    "email": "913.imaginart@imaginart.name"
+  },
+  {
+    "_id": "549086ec5442626e1b0b24cd",
+    "teamNumber": 648,
+    "teamName": "CIPROMOX",
+    "isActive": false,
+    "number": 2,
+    "number2": 4,
+    "email": "648.cipromox@cipromox.info"
+  },
+  {
+    "_id": "549086ec3c4fdf7cbdf7baa3",
+    "teamNumber": 1284,
+    "teamName": "ZOSIS",
+    "isActive": true,
+    "number": 2,
+    "number2": 3,
+    "email": "1284.zosis@zosis.org"
+  },
+  {
+    "_id": "549086ec4e4a64cc6630d434",
+    "teamNumber": 1878,
+    "teamName": "ICOLOGY",
+    "isActive": false,
+    "number": 2,
+    "number2": 4,
+    "email": "1878.icology@icology.me"
+  }
+]
